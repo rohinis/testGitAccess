@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pagination-dropdown</name>
+   <tag></tag>
+   <elementGuidId>4b02883b-3320-4dc9-9a56-8b6d523269d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'pagination-dropdown-auditlogs_input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0db6e89b-512f-4c3f-881a-98e62835caa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pagination-dropdown-auditlogs_input</value>
+      <webElementGuid>ac3100d6-e2dd-4db6-8f2a-2fdddc8d2cf8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

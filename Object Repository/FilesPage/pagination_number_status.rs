@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pagination_number_status</name>
+   <tag></tag>
+   <elementGuidId>840ae68e-0e52-4007-b2a2-16a2f540fe7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'pagination-number-status']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bf8c48a4-76b4-44c7-8b5d-3641145885e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pagination-number-status</value>
+      <webElementGuid>397e5cd8-ad0a-43d0-913f-e8811ee7828f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

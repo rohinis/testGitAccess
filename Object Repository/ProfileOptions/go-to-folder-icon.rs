@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>go-to-folder-icon</name>
+   <tag></tag>
+   <elementGuidId>abb73427-ffcf-48e8-bf0f-b2c29af3d646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id = 'go-to-folder-icon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>014eaaee-e518-44f6-a081-c7ecda7d93ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>go-to-folder-icon</value>
+      <webElementGuid>2753c277-91ab-4576-b509-46eb7af08f48</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
