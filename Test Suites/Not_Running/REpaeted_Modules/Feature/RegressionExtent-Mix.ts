@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>AGE-Chrome_Admin_pbsworks</profileName>
+            <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>

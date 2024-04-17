@@ -10,7 +10,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JMActions</profileName>
+            <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JS</profileName>
+            <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>

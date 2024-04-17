@@ -21,7 +21,7 @@
          <id>a70d0f78-a0de-4e39-8762-db2befa5f530</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1-6</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobSubmission</testDataId>
       </testDataLink>

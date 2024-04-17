@@ -10,7 +10,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_Files</profileName>
+            <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_Folders</profileName>
+            <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
