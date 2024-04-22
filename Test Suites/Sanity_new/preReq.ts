@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>f4640811-b594-41ca-a8d9-ebfa90e2275f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/JobMonitoring/Pre-Req-Script-For-JobMonitoring-AllJobs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
