@@ -58,9 +58,6 @@ try {
 	
 		
 		TestObject newFileObj = WebUI.modifyObjectProperty(findTestObject('JobSubmissionForm/File_InputFile'), 'data-automation-id', 'equals','Running.sh', true)
-		/*WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
-		WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
-		WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))*/
 		CustomKeywords.'generateFilePath.filePath.navlocation'(location, extentTest)
 		WebUI.delay(2)
 		extentTest.log(LogStatus.PASS, 'navigated to - '+location+' in JS-RFB')
@@ -68,16 +65,13 @@ try {
 		WebUI.click(LeftNavAppIdentifier)
 		extentTest.log(LogStatus.PASS, 'loaded job submission form for - shellscript')
 		WebUI.delay(2)
-		//WebUI.scrollToElement(findTestObject('Object Repository/JobSubmissionForm/Link_ResetLink'), 3,  FailureHandling.STOP_ON_FAILURE)
-	//	WebUI.click(findTestObject('Object Repository/JobSubmissionForm/Link_ResetLink'))
-	//	WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Yes'))
-		
+
 
 		def errorPanel =(new customWait.WaitForElement()).WaitForelementPresent(findTestObject('JobSubmissionForm/JS_ErrorModalPanel'), 2,extentTest,'ErrorPanel')
 		if (errorPanel) {
 			WebUI.click(findTestObject('Object Repository/JobSubmissionForm/button_Close'))
 		}
-		//WebUI.click(findTestObject('WIP/RadioBtn_All Fields'))
+
 		WebUI.click(findTestObject('Object Repository/JobSubmissionForm/TxtBx_JobName'))
 		WebUI.sendKeys(findTestObject('Object Repository/JobSubmissionForm/TxtBx_JobName'), Keys.chord(Keys.CONTROL, 'a'))
 		WebUI.sendKeys(findTestObject('Object Repository/JobSubmissionForm/TxtBx_JobName'), Keys.chord(Keys.BACK_SPACE))
