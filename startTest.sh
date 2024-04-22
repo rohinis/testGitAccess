@@ -5,6 +5,8 @@ echo "==========================================================================
 
 ./katalonc -noSplash -runMode=console -projectPath="/tmp/AccessWebCICD/AccessWeb.prj" -retry=0 -testSuitePath="Test Suites/Sanity_new/JobMonitoring-WithPreReq" -browserType="Firefox (headless)" -executionProfile="ExecProfile-raju" -apiKey="c7396a10-aa94-4865-8337-8e396199dfbc" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
 
+
+
 echo "==========================================================================="
 echo "========================= pre req  done==============================="
 echo "==========================================================================="
