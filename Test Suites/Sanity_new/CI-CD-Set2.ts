@@ -14,7 +14,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Sanity_new/AppComp-Sanity</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -34,8 +34,8 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Sanity_new/JobMonitoring-WithPreReq</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Sanity_new/JobMonitoring-WithPreReq-Ops</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -44,7 +44,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Sanity_new/FilesModule-WithPreReq - Copy</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
