@@ -32,9 +32,9 @@ public class ForLogin {
 
 
 		if (Browser == 'Edge Chromium') {
-			WebUI.click(findTestObject('Object Repository/GenericObjects/EdgeChromium_Details_link'))
+			WebUI.click(findTestObject('Object Repository/GenericObjects/btn_EdgeChromium_Details_link'))
 			WebUI.delay(3)
-			WebUI.click(findTestObject('Object Repository/GenericObjects/EdgeChromium_proceed_link'))
+			WebUI.click(findTestObject('Object Repository/GenericObjects/link_EdgeChromium_proceed_link'))
 			WebUI.delay(3)
 			WebUI.deleteAllCookies()
 		}

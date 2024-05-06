@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>JobsTab_disabled</name>
+   <name>Confirm_button</name>
    <tag></tag>
-   <elementGuidId>6de93568-a98a-4dbc-8bf6-4cd4820d5fa0</elementGuidId>
+   <elementGuidId>dfe18b1d-db8e-4a54-ad0d-2a47651bbb2d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='app_jobs_tab']</value>
+         <value>//button[@id='confirm_modal_ok_btn']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//li[@id = 'app_jobs_tab']</value>
+         <value>//button[@id = 'confirm_modal_ok_btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,15 +22,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-      <webElementGuid>eb9fea54-a613-420a-bc78-75df521c3763</webElementGuid>
+      <value>button</value>
+      <webElementGuid>034b4c2d-73ba-4536-b075-9f7fc8cdd1d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>app_jobs_tab</value>
-      <webElementGuid>41835bcf-fd28-4ffe-a180-f887fd5c5707</webElementGuid>
+      <value>confirm_modal_ok_btn</value>
+      <webElementGuid>bf590a3f-ea5e-44b0-a97e-b535a7054c2f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

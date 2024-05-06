@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EdgeChromium_proceed_link</name>
+   <name>btn_EdgeChromium_Details_link</name>
    <tag></tag>
-   <elementGuidId>d0d29075-0d10-487a-aebf-e0930143e9b4</elementGuidId>
+   <elementGuidId>c0242eb4-5211-4218-9257-baf55240bbc6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//button[@id='details-button']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id = 'proceed-link']</value>
+         <value>//button[@id = 'details-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
+      <webElementGuid>db0631ee-5dfc-4bcb-bc65-5467db59b9e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>proceed-link</value>
+      <value>details-button</value>
+      <webElementGuid>d8b28c6f-914a-457b-91d6-bfce2ab59f0a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

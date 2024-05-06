@@ -70,7 +70,7 @@ try
 		   WebUI.click(findTestObject('Generic_Actions/Qstat_of_Job'))
 		   extentTest.log(LogStatus.PASS, 'Click on Qstat_of_Job')
 		   
-		   WebUI.click(findTestObject('Generic_Actions/Confirm_button'))
+		   WebUI.click(findTestObject('GenericObjects/Confirm_button'))
 		   extentTest.log(LogStatus.PASS, 'Click on run')
 		   
 		   WebUI.verifyElementPresent(findTestObject('Generic_Actions/Generic_Actions'), 5)
@@ -88,11 +88,11 @@ try
 		   WebUI.click(findTestObject('Generic_Actions/Jobid'))
 		   extentTest.log(LogStatus.PASS, 'Click on job id')
 		   
-		   WebUI.click(findTestObject('Generic_Actions/Confirm_button'))
+		   WebUI.click(findTestObject('GenericObjects/Confirm_button'))
 		   extentTest.log(LogStatus.PASS, 'Click on run')
 		   WebUI.delay(3)
 		   
-		   WebUI.verifyElementPresent(findTestObject('Generic_Actions/Confirm_button'), 5)
+		   WebUI.verifyElementPresent(findTestObject('GenericObjects/Confirm_button'), 5)
 		   
 		   WebUI.takeScreenshot(screenShot)
 		   extentTest.log(LogStatus.PASS, 'Verify job id is required to trace the job')
@@ -112,11 +112,11 @@ try
 		   WebUI.setText(findTestObject('Generic_Actions/Jobid'), myText)
 		   extentTest.log(LogStatus.PASS, 'Add the job id')
 		 
-		   WebUI.click(findTestObject('Generic_Actions/Confirm_button'))
+		   WebUI.click(findTestObject('GenericObjects/Confirm_button'))
 		   extentTest.log(LogStatus.PASS, 'Click on run')
 		   WebUI.delay(3)
 		   
-		   WebUI.click(findTestObject('Generic_Actions/Confirm_button'))
+		   WebUI.click(findTestObject('GenericObjects/Confirm_button'))
 		   extentTest.log(LogStatus.PASS, 'Click on Close')
 		   
 		   

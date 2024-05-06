@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EdgeChromium_Details_link</name>
+   <name>span_About_UserOptions</name>
    <tag></tag>
-   <elementGuidId>c0242eb4-5211-4218-9257-baf55240bbc6</elementGuidId>
+   <elementGuidId>7bd98b09-a581-4507-9249-98e7ecf2d9bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='details-button']</value>
+         <value>//span[contains(text(),'About')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id = 'details-button']</value>
+         <value>//span[(contains(text(), 'About') or contains(., 'About'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>span</value>
+      <webElementGuid>fc703565-e556-4aff-a0a4-a307bc939cb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>details-button</value>
+      <value>About</value>
+      <webElementGuid>387ec483-11e7-4125-a860-4fc46b84985c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

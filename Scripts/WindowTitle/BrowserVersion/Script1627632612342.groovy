@@ -32,7 +32,7 @@ try {
 		extentTest.log(LogStatus.PASS, 'Click on profile tab')
 		WebUI.delay(2)
 		
-		WebUI.click(findTestObject('Object Repository/GenericObjects/About'))
+		WebUI.click(findTestObject('Object Repository/GenericObjects/Span_About_UserOptions'))
 		extentTest.log(LogStatus.PASS, 'Click on About')
 		WebUI.delay(2)
 		

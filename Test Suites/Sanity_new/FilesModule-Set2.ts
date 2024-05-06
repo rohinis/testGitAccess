@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>FilesModule-WithPreReq</name>
+   <name>FilesModule-Set2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,41 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>d0f494b7-6615-415d-867f-7e0d0483293a</testSuiteGuid>
-   <testCaseLink>
-      <guid>f1539952-54e3-4b24-bf3f-3b527355ad56</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FilesModule/Create_file</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>54afcc6e-ab4f-4c6f-9721-f72e6249924d</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Sanity/FileCreate</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>54afcc6e-ab4f-4c6f-9721-f72e6249924d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>FileName</value>
-         <variableId>fbbf9b51-72f4-495f-9cbf-a8e08f06ebf3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>54afcc6e-ab4f-4c6f-9721-f72e6249924d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TestCaseName</value>
-         <variableId>02884025-536f-4943-85bd-c1e5dc201c49</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>54afcc6e-ab4f-4c6f-9721-f72e6249924d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>userChoice</value>
-         <variableId>cdf52790-8a83-4b10-8c0b-bed0a592b1c4</variableId>
-      </variableLink>
-   </testCaseLink>
+   <testSuiteGuid>bb0bb189-6dfc-4e3d-9188-7af226257a85</testSuiteGuid>
    <testCaseLink>
       <guid>fc2abfee-33a2-4d31-98cf-aabe1ebbb81b</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -55,7 +21,7 @@
          <id>98ae1009-2546-4b35-82a6-c39fc1879f15</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>9-15</value>
+            <value>1-8</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
